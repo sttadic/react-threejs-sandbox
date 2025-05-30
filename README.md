@@ -1,12 +1,20 @@
-# React + Vite
+# Personal 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚧 Work in progress
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Three.js](https://threejs.org/) via [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/)
+- [@react-three/drei](https://github.com/pmndrs/drei) — helpers for common R3F patterns
+- [@react-three/postprocessing](https://github.com/pmndrs/react-postprocessing) — effects like bloom, noise, etc.
+- [GSAP](https://gsap.com/) with [@gsap/react](https://www.npmjs.com/package/@gsap/react) — advanced animations
 
-## Expanding the ESLint configuration
+## ✨ Planned Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Smooth GSAP animations and page transitions
+- 3D visuals and interactive scenes powered by React Three Fiber
+- Dynamic project showcase
+- Contact form
+
+---

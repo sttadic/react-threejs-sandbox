@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import { words } from "../constants";
 
 const Hero = () => {
@@ -15,8 +16,8 @@ const Hero = () => {
 								Shaping{" "}
 								<span className="slide">
 									<span className="wrapper">
-										{words.map((word) => (
-											<span key={word.text} className="flex items-center md:gap-3 gap-1 pb-2">
+										{words.map((word, index) => (
+											<span key={index} className="flex items-center md:gap-3 gap-1 pb-2">
 												<img
 													src={word.imgPath}
 													alt={word.text}
@@ -35,6 +36,7 @@ const Hero = () => {
 							Hi, I'm Stjepan, a developer based in Ireland, with a passion for software development.
 						</p>
 					</div>
+					<Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work" />
 				</header>
 			</div>
 		</section>

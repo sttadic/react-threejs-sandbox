@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import HeroExperience from "../components/HeroModels/HeroExperience";
 import { words } from "../constants";
 
 const Hero = () => {
@@ -9,6 +10,7 @@ const Hero = () => {
 			</div>
 
 			<div className="hero-layout">
+				{/*LEFT: HERO CONTENT */}
 				<header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
 					<div className="flex flex-col gap-7">
 						<div className="hero-text">
@@ -36,11 +38,20 @@ const Hero = () => {
 							Hi, I'm Stjepan, a developer based in Ireland, with a passion for software development.
 						</p>
 					</div>
-					<Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work" />
+					<Button className="md:w-80 md:h-16 w-60 h-12 mt-5" id="button" text="See my Work" />
 				</header>
+
+				{/*RIGHT: 3D MODEL */}
+				<figure>
+					<div className="hero-3d-layout border-red-200 border-2">
+						<HeroExperience />
+					</div>
+				</figure>
 			</div>
 		</section>
 	);
 };
 
 export default Hero;
+
+// 37:00
